@@ -1,0 +1,40 @@
+body{
+    background-color: #323030;
+}
+
+#principal {
+    font-family: "Comfortaa";
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#Name1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0px;
+}
+
+#Name2 { 
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(90deg,#ffffff 30%,#1a4b91 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-top: 0px;
+}
+
+#principal a {
+    color: #ffffff;
+}
+
+#principal ul {
+    padding: 0;
+}
+
+#principal li {
+    list-style: none;
+}
