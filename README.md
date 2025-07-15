@@ -1,1 +1,1 @@
-# MAC-BI-Estrategi
+# MAC BIEstrategi
