@@ -1,8 +1,5 @@
 body{
     background-color: #323030;
-}
-
-#principal {
     font-family: "Comfortaa";
     text-align: center;
     color: #ffffff;
@@ -27,14 +24,62 @@ body{
   margin-top: 0px;
 }
 
-#principal a {
-    color: #ffffff;
-}
-
-#principal ul {
+#marca ul {
     padding: 0;
 }
 
-#principal li {
+#marca li {
     list-style: none;
 }
+
+.coluna {
+    flex: 1; 
+    background-color: white;
+    color: #323030;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.coluna a {
+    color: #323030;
+}
+
+.liLeft {
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plano {
+    flex: 1; 
+    background-color: white;
+    color: #323030;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.plano h3 {
+    text-align: center;
+    color: #323030;
+}
+
+.plano ul {
+    list-style: none;
+    padding: 0;
+    color: #323030;
+}
+
+.plano ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.check { color: green; }
+.cross { color: red; }
