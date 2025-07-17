@@ -83,3 +83,9 @@ body{
 
 .check { color: green; }
 .cross { color: red; }
+
+.imgSetupInicial {
+    width: 373px;
+    height: 373px;
+    border-radius: 50px;
+}
